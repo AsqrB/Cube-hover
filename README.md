@@ -1,2 +1,2 @@
-# Cube-hover
-Pure CSS and HTML cube with hover effect
+#Pure HTML CSS components
+This repository contains webpage components created using pure css and html only
