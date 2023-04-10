@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loader</title>
+        <style>
+            body{
+                height: 100vh;
+                width:100vw;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                background-color: wheat;
+            }
+        
+            #loader{
+              display: none; /* Hidden by default */
+              position: fixed; /* Stay in place */
+              z-index: 1; /* Sit on top */
+              left: 0;
+              top: 0;
+              width: 100%; /* Full width */
+              height: 100%; /* Full height */
+              /* To align loaders content in the center */
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              overflow: auto; /* Enable scroll if needed */
+              background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            }
+            #loader .image{
+              background: #ffffff url(pic/waiting.gif) no-repeat center;
+              background-size: cover;
+              border-radius: 5px;
+              height:50vh;
+              width:60vh;
+            }
+            .load_text{
+                margin:10px;
+                color: white;
+                font-size: x-large;
+                letter-spacing: 2px;
+            }
+            .btn{
+                padding:10px;
+                border-radius: 8px;
+                color:white;
+                background-color: #1680C3;
+                scale: 2;
+                border: 0;
+            }
+        </style>
+    </head>
+    <body>
+    <button onclick="document.getElementById('loader').style.display = 'flex'; " class="btn">Loading</button>
+    <div id="loader">
+      <div class="image"></div>
+      <div class="load_text">Loading...</div>
+    </div>    
+    </body>
+</html>
