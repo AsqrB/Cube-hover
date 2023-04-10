@@ -1,0 +1,128 @@
+* {
+    Box-Sizing: Border-Box;
+}
+Body {
+    Background-Color: #3f4f7f;
+    Margin-Bottom: 50px;
+}
+Html, Button, Input, Select, Textarea {
+    font-family: 'Courier New', Courier, monospace;
+    Color: #dedede;
+}
+H1 {
+    Text-Align: Center;
+    Margin: 30px 15px;
+}
+.Zoom-Area {
+    Max-Width: 490px;
+    Margin: 30px Auto 30px;
+    Font-Size: 19px;
+    Text-Align: Center;
+}
+.Link-Container {
+    Text-Align: Center;
+}
+A.More-Link {
+    Text-Decoration: None;
+    Text-Transform: Uppercase;
+    Background-Color: #2f253f;
+    margin: 50px 5px 5px 5px;
+    Padding: 10px 15px;
+    Color: #fff;
+}
+.Error-Container {
+    Text-Align: Center;
+    Font-Size: 180px;
+    font-family: cursive;
+    Font-Weight: 800;
+    Margin: 20px 15px;
+}
+.Error-Container>Span {
+    Display: Inline-Block;
+    Color: #FFB485;
+}
+.Error-Container>Span:nth-Of-Type(1) {
+    Perspective: 1000px;
+    Perspective-Origin: 500% 50%;
+    Color: #F0E395;
+}
+ .Error-Container>Span:nth-Of-Type(3) {
+    Perspective: None;
+    Perspective-Origin: 50% 50%;
+    Color: #D15C95;
+}
+/* Animation css */
+/*.Error-Container>Span:nth-Of-Type(1) {
+    Transform-Origin: 50% 100% 0px;
+    Transform: RotateX(0);
+    Animation: Easyoutelastic 8s Infinite;
+}
+.Error-Container>Span:nth-Of-Type(3){
+    Transform-Origin: 100% 100% 0px;
+    Transform: Rotate(0deg);
+    Animation: Rotatedrop 8s Infinite;
+}
+
+@keyframes Easyoutelastic {
+    0% {
+        Transform: RotateX(0);
+    }
+
+    9% {
+        Transform: RotateX(210deg);
+    }
+
+    13% {
+        Transform: RotateX(150deg);
+    }
+
+    16% {
+        Transform: RotateX(200deg);
+    }
+
+    18% {
+        Transform: RotateX(170deg);
+    }
+
+    20% {
+        Transform: RotateX(180deg);
+    }
+
+    60% {
+        Transform: RotateX(180deg);
+    }
+
+    80% {
+        Transform: RotateX(0);
+    }
+
+    100% {
+        Transform: RotateX(0);
+    }
+}
+
+@keyframes Rotatedrop {
+    0% {
+        Transform: Rotate(0);
+    }
+
+    10% {
+        Transform: Rotate(30deg);
+    }
+
+    15% {
+        Transform: Rotate(90deg);
+    }
+
+    70% {
+        Transform: Rotate(90deg);
+    }
+
+    80% {
+        Transform: Rotate(0);
+    }
+
+    100% {
+        Transform: RotateX(0);
+    }
+} */
